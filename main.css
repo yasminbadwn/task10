@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+i
+{
+    margin-right: 10px;
+  
+}
+a
+{
+text-decoration: none;
+color: aliceblue;
+}
+header
+{
+    background-image: url(im/bac.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(238, 222, 222);
+}
+
+.nav
+{
+    background-color: rgba(32, 30, 28, 0.386);
+    height:60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+   z-index: 99999999999;
+   position: fixed;
+   width: 100%;
+   top: 0;
+    
+}
+.list ul li{
+    list-style: none;
+ 
+}
+.list ul
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.end
+{
+    width: 40%;
+}
+.heed
+{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.vv
+{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.batton button
+{
+    
+    padding: 12.5px;
+    font-size: 15px;
+   
+  }
+.tit{
+    font-size: 20px;
+    height: 20px;
+    font-family: "Noto Serif", serif;
+
+}
+.ti{
+    font-size: 20px;
+    height: 30px;
+    font-family: "Dancing Script", cursive;
+}
+.fotter
+{
+    display: flex;
+    flex-direction: column;
+}
+.top
+{
+    height: 350px;
+    background-color: rgb(56, 52, 47);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+    
+    
+
+}
+.one
+{
+    width: 25%;
+    height: 220px;
+   display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+.two
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+}
+.three
+{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.four
+{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.list2fotter ul li
+{
+    list-style: none;
+    display: flex;
+   flex-wrap: wrap;
+   align-content: space-between;
+   height: 40px;
+
+   
+}
+.list3fotter ul li
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 30px;
+}
+
+.list4fotter ul li {
+   display: flex;
+   flex-wrap: wrap;
+   
+   justify-content: start;
+   
+   height: 40px;
+   list-style: none;
+ 
+}
+.list4fotter
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+
+}
+.divvv
+{
+    
+    display: flex;
+    
+    
+   
+}
+.endfo{
+    height: 400px;
+    width: 100%;
+     background-color: rgb(47, 43, 36);
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-content: center;
+     text-align: center;
+     color: aliceblue;
+}
+.app
+{
+    font-size: 40px;
+    
+}
+.section1
+{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+   
+}
+.parsect1
+{
+    width: 350px;
+}
+.parsec1
+{
+    margin-top:60px;
+    height: 360px;
+     display: flex;
+     flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+}
+.listsec1 ul li
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 30px;
+   
+}
+.immg
+{
+    width: 40%;
+    height: 90%;
+}
+.titelsec1
+{
+    font-size: 30px;
+    height: 20px;
+    font-family: "Noto Serif", serif;
+    
+    
+}
+.titel2sec1
+{
+    font-family: "Dancing Script", cursive;
+    color: rgb(128, 88, 9);
+    font-size: 30px;
+}
+ 
+
+.section2
+{
+    background-color: rgb(219, 219, 219);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+   
+}
+.imsec2
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 50%;
+    height: 80%;
+}
+.parsect2
+{
+    width: 350px;
+}
+.parsec2
+{
+    
+    height: 360px;
+     display: flex;
+     flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+}
+.listsec2 ul li
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 30px;
+}
+
+.titelsec2
+{
+    font-size: 30px;
+    height: 20px;
+    font-family: "Noto Serif", serif;
+    
+    
+}
+.titel2sec2
+{
+    font-family: "Dancing Script", cursive;
+    color: rgb(128, 88, 9);
+    font-size: 30px;
+}
+.imsec3
+{
+    width: 100%;
+}
